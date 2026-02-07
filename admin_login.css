@@ -1,0 +1,106 @@
+body {
+   background-color: #005461;
+}
+h3 {
+    top: 0%;
+}
+.heading{
+    border: none;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: none;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.container{
+    display: flex;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    font-size: larger;
+    background: transparent;
+    transform: perspective(800px) translateZ(0);
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.55),
+        rgba(255, 255, 255, 0.15)
+    );    
+    border-top:10px;
+    border-left: 10px;
+    padding: 60px 70px;
+    max-width: fit-content;
+    margin-left: 540px;  
+    border-radius: 15px;
+     box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+div{
+    border: 3px solid;
+    width: 300px;
+    
+}
+.username{
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.8);
+        width: 250px;
+        padding-bottom: 5px;
+        text-shadow: #005461;
+        margin-left: 5px;
+        margin-top: 2px;
+        padding-left: 10px;
+   
+}
+
+.password{
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.8);
+        width: 250px;
+        padding-bottom: 5px;
+        text-shadow: #005461;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.button{
+    height: 30px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.25),
+        inset 0 1px 2px rgba(255, 255, 255, 0.8);
+        width: 250px;
+        padding: 6p x;
+        text-shadow: #005461;
+        background-color: #005461;
+        color: #fff;
+        margin-left: 55px;
+        width:150px;
+}
+.profile {
+    border: none;
+    margin-left: 220px;
+  
+}
+
+.profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 
+        0 5px 15px rgba(0, 0, 0, 0.3);
+        
+}
